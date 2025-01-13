@@ -1,0 +1,3 @@
+Antes de ejecutar docker compose up -d, debes crear un fichero .env con los valores de las variables de entorno.
+
+También es preciso crear un fichero dynu-credentials.ini con la API Key obtenida en vuestra cuenta de Dynu, al que se deben asignar permisos solo para el propietario (chmod 600):  dns_dynu_auth_token = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
