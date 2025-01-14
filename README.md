@@ -1,8 +1,8 @@
-# Instrucciones para ejecutar el entorno multicontenedor: nginx + certbot + apache
+# Instrucciones para ejecutar el entorno multicontenedor
 
 1. Modifica el fichero `env.example` con los valores de las variables y cambia el nombre a `.env`.
 
-2. Crea el fichero `dynu-credentials.ini` en el directorio principal con el API Key de Dynu. El contenido sería:
+2. Crea el fichero `dynu-credentials.ini` en el directorio principal con el API Key de [Dynu](https://www.dynu.com/). El contenido sería:
 
    ```ini
    dns_dynu_auth_token = XXXXXXXXXXX
@@ -44,3 +44,7 @@
    - **Subject Alternative Name (SAN)**
 
    Comprueba que se trata de un certificado wildcard `*.tudominio.freeddns.org`.
+
+
+
+
