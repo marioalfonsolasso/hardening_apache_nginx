@@ -42,6 +42,10 @@
    - **Subject Alternative Name (SAN)**
 
    Comprueba aparecen ambos nombres `tudominio.freeddns.org` y `www.tudominio.freeddns.org` en la extensión SAN.
-
+   
+10. Al finalizar, ejecuta el siguiente comando para parar y eliminar los contenedores:
+   ```bash
+   docker compose down
+   ```
 
 
